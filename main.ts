@@ -4,4 +4,4 @@ dotenv.config({ path: "./.env" });
 
 import { EXTERNAL_IMPORT } from "./external";
 
-console.log(EXTERNAL_IMPORT);
+console.log(`EXTERNAL_IMPORT: ${EXTERNAL_IMPORT}`);
